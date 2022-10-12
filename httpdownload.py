@@ -2,7 +2,6 @@ import socket
 import argparse
 from urllib.parse import urlparse
 import select
-import os
 
 def httpdownload(url, urlF):
     s = socket.socket(
